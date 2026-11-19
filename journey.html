@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slingshot</title>
+  <meta name="description" content="Slingshot teaches AP courses in one focused 45-minute session a day and stays with every concept until you own it." />
+  <link rel="icon" href="/slingshot/logo.svg" />
+  <link rel="preload" href="/slingshot/fonts/instrument-serif-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+  <script type="module" crossorigin src="/slingshot/assets/journey-UwL8Bdlm.js"></script>
+  <link rel="modulepreload" crossorigin href="/slingshot/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/slingshot/assets/journey-BDt8lgof.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Slingshot">
+    <img src="/slingshot/logo.svg" alt="" width="34" height="34" />
+    <span>Slingshot</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#journey">How it works</a>
+    <a href="#courses">Courses</a>
+  </nav>
+  <a class="btn btn-ink" href="#start">Get started</a>
+</header>
+
+<main id="top">
+
+  <!-- JOURNEY: the slingshot fires on scroll and the page follows the ball -->
+  <section class="journey" id="journey">
+    <div class="stage">
+      <div class="world" id="world">
+        <img class="sky sky2" src="/slingshot/img/sky2.jpg" alt="" />
+        <img class="sky sky1" src="/slingshot/img/sky1.jpg" alt="" />
+        <h1 class="aim" id="aim">Aim for a 5.</h1>
+        <svg class="draw" id="draw-back" aria-hidden="true"><path id="trail" /></svg>
+        <img class="fork" id="fork" src="/slingshot/img/fork.png" alt="A huge wooden slingshot" />
+        <svg class="draw" id="draw-front" aria-hidden="true">
+          <path id="band-l-edge" class="band-edge" /><path id="band-r-edge" class="band-edge" />
+          <path id="band-l" class="band" /><path id="band-r" class="band" />
+          <path id="pouch" />
+        </svg>
+        <div class="ball" id="ball"></div>
+      </div>
+
+      <div class="intro" id="intro">
+        <p>AP prep in one <br />45-minute session a day.</p>
+        <span class="cue">Scroll to pull back</span>
+      </div>
+
+      <article class="card left" data-from="p:0.025" data-to="p:0.118">
+        <span class="step">01</span><h2>Pull back.</h2>
+        <p>Every session opens with a short review of what is about to fade.</p>
+      </article>
+      <article class="card right" data-from="t:0.04" data-to="t:0.2">
+        <span class="step">02</span><h2>Let go.</h2>
+        <p>Then new lessons: short videos that stop to ask you questions.</p>
+      </article>
+      <article class="card left" data-from="t:0.27" data-to="t:0.43">
+        <span class="step">03</span><h2>Write it. Get graded now.</h2>
+        <p>Written answers are graded the moment you submit them.</p>
+      </article>
+      <article class="card right" data-from="t:0.49" data-to="t:0.63">
+        <span class="step">04</span><h2>45 minutes. Done.</h2>
+        <p>One planned block a day. Slingshot picks every next step.</p>
+      </article>
+      <article class="card left" data-from="t:0.69" data-to="t:0.86">
+        <span class="step">05</span><h2>Every concept adds speed.</h2>
+        <p>Each one returns for review on a widening schedule until it stays.</p>
+      </article>
+      <div class="landing" data-from="t:0.94" data-to="t:2">
+        <h2>Land it.</h2>
+        <p>Ten AP courses. One session a day.</p>
+        <a class="btn btn-cream btn-lg" href="#start">Start learning</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses" id="courses">
+    <header class="section-head">
+      <p class="eyebrow reveal">Courses</p>
+      <h2 class="reveal">Ten AP courses.</h2>
+    </header>
+    <div class="course-grid" id="course-grid"></div>
+  </section>
+
+  <!-- LAUNCH -->
+  <section class="launch">
+    <figure class="launch-plate reveal"><img src="/slingshot/img/launch.jpg" alt="Three students in a meadow watching a rocket climb at dawn" loading="lazy" /></figure>
+    <div class="launch-copy">
+      <h2 class="reveal">We already know<br />how to teach.</h2>
+      <p class="reveal d1">Mastery learning, spaced review and immediate feedback have decades of evidence behind them. Slingshot puts all three in every session.</p>
+      <ul class="pillars">
+        <li class="reveal d1"><b>Mastery</b><span>Move on when you have it.</span></li>
+        <li class="reveal d2"><b>Spacing</b><span>Review as it starts to fade.</span></li>
+        <li class="reveal d3"><b>Feedback</b><span>Know where you stand at once.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final" id="start">
+    <div class="final-media" data-parallax>
+      <img src="/slingshot/img/summit.jpg" alt="A student on a summit above a sea of cloud at sunrise" loading="lazy" />
+    </div>
+    <div class="final-copy">
+      <h2 class="reveal">Your launch window<br />is open.</h2>
+      <a class="btn btn-ink btn-lg reveal d1" href="#">Start learning</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <a class="brand" href="#top"><img src="/slingshot/logo.svg" alt="" width="28" height="28" /><span>Slingshot</span></a>
+  <nav>
+    <a href="#journey">How it works</a>
+    <a href="#courses">Courses</a>
+  </nav>
+  <small>© 2026 Slingshot</small>
+</footer>
+
+</body>
+</html>
